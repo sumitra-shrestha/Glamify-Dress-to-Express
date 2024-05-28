@@ -7,4 +7,8 @@
     <!-- bootstrap end -->
 
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/90f33d86b5.js" crossorigin="anonymous"></script>
+
 </head>

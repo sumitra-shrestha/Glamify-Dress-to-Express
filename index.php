@@ -2,10 +2,12 @@
 <html>
 <?php include_once "includes/header.php";
 ?>
-    <body>
-<?php 
-include "includes/navigation.php";
-?>
 
-    </body>
+<body>
+    <?php
+    include "includes/navigation.php";
+    ?>
+
+</body>
+
 </html>

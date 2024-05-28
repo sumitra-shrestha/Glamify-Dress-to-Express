@@ -1,4 +1,20 @@
+
 *{
     margin: 0;
     padding: 0;
 }
+
+body{
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(255 203 209), rgb(255 162 173), rgb(255 130 144));;
+}
+
+.container{
+    background: #fff;
+    border-radius: 0.5%;
+    border: #fff 1px solid;
+    
+}
+ hr{
+    margin: 0.5rem 0;
+ }
