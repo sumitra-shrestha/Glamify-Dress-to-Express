@@ -15,6 +15,33 @@ body{
     border: #fff 1px solid;
     
 }
- hr{
+hr{
     margin: 0.5rem 0;
- }
+}
+
+.price{
+    color: hsl(353, 100%, 78%);
+}
+
+.featured{
+	width:250px;
+}
+
+.featured img{
+    width: 75px;
+    height: 75px;
+}
+.featured p{
+	margin-bottom: 2px;
+}
+.product{
+	margin-bottom: 25px;
+}
+
+.product img{
+	width: 250px;
+	height: 250px;
+}
+.product-desc p{
+	margin-bottom:5px;
+}
