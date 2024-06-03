@@ -15,6 +15,50 @@ body{
     border: #fff 1px solid;
     
 }
- hr{
+hr{
     margin: 0.5rem 0;
- }
+}
+
+.price{
+    color: hsl(353, 100%, 78%);
+}
+
+.featured{
+	width:250px;
+}
+
+.featured img{
+    width: 75px;
+    height: 75px;
+}
+.featured p{
+	margin-bottom: 2px;
+}
+.product{
+	margin-bottom: 25px;
+}
+
+.product img{
+	width: 250px;
+	height: 250px;
+}
+
+/*Product.php page style*/
+.product-desc p{
+	margin-bottom:5px;
+}
+
+
+.product-display img{
+ 	width:25em;
+	margin: 5px 10px;
+	
+}
+.product-disp-desc{
+	width: 35em;
+}
+
+.rating {
+      font-size: 24px; /* Adjust size as needed */
+      color: gold; /* Or any color you prefer */
+}
