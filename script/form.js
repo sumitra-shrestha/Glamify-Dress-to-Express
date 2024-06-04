@@ -40,12 +40,14 @@ function validateSignupForm() {
     if (!pwd) {
       $("#pwdErrorMsg").text("*Please enter your password");
       isFormValid = false;
-    } else if (!/^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(pwd)) {
-      $("#pwdErrorMsg").text(
-        "*Password should be minimum 8 letter and have at least a symbol, upper and lower case letters and a number."
-      );
-      isFormValid = false;
-    } else {
+    } 
+    // else if (!/^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(pwd)) {
+    //   $("#pwdErrorMsg").text(
+    //     "*Password should be minimum 8 letter and have at least a symbol, upper and lower case letters and a number."
+    //   );
+    //   isFormValid = false;
+    // }
+     else {
       $("#pwdErrorMsg").text("");
       isFormValid = true;
     }

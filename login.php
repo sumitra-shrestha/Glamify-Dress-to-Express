@@ -27,7 +27,8 @@ unset($_SESSION['error']);
   <main>
     <div class="container form-container text-center">
       <div class="col-md-8 m-auto">
-        <img src="images/logo/logo.png" alt="logo" class="col-md-8"/>
+        <a href="index.php">
+        <img src="images/logo/logo.png" alt="logo" class="col-md-8"/></a>
         <h3 class="heading">Log in</h3>
         <form id="loginForm" class="customForm form-group text-center" action="action/signin.php" method="POST"
           onsubmit="return validateLoginForm()">

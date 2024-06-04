@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -76,4 +77,9 @@ hr{
     line-height: 1.2;
     text-align: justify;
     max-width: 50%;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
   }

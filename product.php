@@ -10,7 +10,7 @@
 		?>
 
 		<div class="product-display row mt-5 ms-md-2">
-			<div class="col-md-5 ms-md-3 ps-md-5 ps-4">
+			<div class="col-md-5 ">
 				<img src="images/products/3.jpg">
 			</div>
 			<div class="product-disp-desc col-md-7 px-4">
@@ -38,11 +38,11 @@
 				<p>User3<span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
 				<p>The product is great</p>
 			</div>
-			<h3>Add a Review</h3>
+			<!-- <h3>Add a Review</h3>
 			<div>
 				<input type="text" id="newReview" placeholder="Enter your review">
 				<button type="button" class="btn btn-primary" onclick="addReview()">Submit</button>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </body>
