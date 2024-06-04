@@ -13,7 +13,7 @@ if (isset($_POST["loginBtn"])) {
         if ($result->rowCount() > 0) {
             while ($row = $result->fetch()) {
                 $_SESSION['user_id'] = $row['user_id'];              
-                    header("location: ../loggedIndex.php");
+                    header("location: ../index.php");
                 
             }
 

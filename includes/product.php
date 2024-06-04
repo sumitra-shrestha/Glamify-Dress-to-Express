@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <?php
-session_start();
 include_once "includes/header.php";
 include_once 'includes/connection.php'; // Include your database connection file
 
@@ -24,11 +23,7 @@ if ($result->rowCount() > 0) {
 <body>
 	<div class="container">
 		<?php
-		if (isset($_SESSION['user_id'])) {
-			include "includes/authenticated-navigation.php";
-		} else {
-			include "includes/navigation.php";
-		}
+		include "includes/navigation.php";
 		?>
 
 		<div class="product-display row mt-5 ms-md-2">
@@ -38,15 +33,11 @@ if ($result->rowCount() > 0) {
 			<div class="product-disp-desc col-md-7 px-4">
 				<p class="display-3"><?php echo $name ?></p>
 				<p class="mb-5"><?php echo $description ?></p>
-				<div class="d-flex">
-					<form id="addToCartForm" action="action/addToCart.php?productId=<?php echo $productId ?>"
-						method="POST">
-						<input id="submitBtn" class="btn btn-primary" type="submit" value="Add to Cart"
-							name="addToCartBtn" />
-					</form>
-					<button type="button" class="btn btn-primary ms-2">Buy</button>
-				</div>
-
+				<form id="addToCartForm" action="action/addToCart.php?productId=<?php echo $productId ?>" method="POST">
+					<input id="submitBtn" class="btn btn-primary" type="submit" value="Add to Cart"
+						name="addToCartBtn" />
+				</form>
+				<button type="button" class="btn btn-primary">Buy</button>
 			</div>
 		</div>
 		<div class="mt-3 ms-md-5 ps-md-5">

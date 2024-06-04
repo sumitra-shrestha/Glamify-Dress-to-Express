@@ -7,8 +7,9 @@ $sql = "SELECT * FROM product"; // Assuming your table name is 'products'
 $result = $con->query($sql);
 
 if ($result->rowCount() > 0) {
+    echo '';
     while($row = $result->fetch(PDO::FETCH_ASSOC)) {
-        echo '<a href="product.php" class="product col-md-3 d-flex flex-column">';
+        echo '<a href="product.php?productId='. $row['productid'].'" class="product col-md-3 d-flex flex-column">';
         echo '<div>';
         echo '<img src="images/products/' . $row['photoname'] . '" alt="' . $row['pname'] . '">';
         echo '</div>';

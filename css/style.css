@@ -1,85 +1,108 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-body{
+body {
     min-height: 100vh;
-    background: linear-gradient(to bottom, rgb(255 203 209), rgb(255 162 173), rgb(255 130 144));;
+    background: linear-gradient(to bottom, rgb(255 203 209), rgb(255 162 173), rgb(255 130 144));
+    ;
 }
 
-.container{
+.container {
     background: #fff;
     border-radius: 0.5rem;
     border: #fff 1px solid;
     max-width: 80%;
     margin-top: 0.25rem;
-    
+
 }
-hr{
+
+hr {
     margin: 0.5rem 0;
 }
 
-.price{
+.price {
     color: hsl(353, 100%, 78%);
 }
 
-.featured{
-	width:250px;
+.featured {
+    width: 250px;
 }
 
-.featured img{
+.featured img {
     width: 75px;
     height: 75px;
 }
-.featured p{
-	margin-bottom: 2px;
-}
-.product{
-	margin-bottom: 25px;
+
+.featured p {
+    margin-bottom: 2px;
 }
 
-.product img{
-	width: 250px;
-	height: 250px;
+.product {
+    margin-bottom: 25px;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
 }
 
 /*Product.php page style*/
-.product-desc p{
-	margin-bottom:5px;
+.product-desc p {
+    margin-bottom: 5px;
 }
 
 
-.product-display img{
- 	width:25em;
-	margin: 5px 10px;
-	
+.product-display img {
+    width: 25em;
+    margin: 5px 10px;
+
 }
-.product-disp-desc{
-	width: 35em;
+
+.product-disp-desc {
+    width: 35em;
 }
 
 .rating {
-      font-size: 24px; /* Adjust size as needed */
-      color: gold; /* Or any color you prefer */
+    font-size: 24px;
+    /* Adjust size as needed */
+    color: gold;
+    /* Or any color you prefer */
 }
 
-.form-container{
+.form-container {
     max-width: 50%;
     margin: 6rem auto;
     padding: 3rem;
 }
+
 .error-msg {
     color: #dc143a;
     font-size: 0.8rem;
     line-height: 1.2;
     text-align: justify;
     max-width: 50%;
-  }
+}
 
-  a{
+a {
     text-decoration: none;
     color: black;
-  }
+}
+
+.search-btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 13px;
+    top: 7px;
+}
+
+.search-btn i {
+    height: 35px;
+    border: none;
+    padding-top: 11px;
+
+}
