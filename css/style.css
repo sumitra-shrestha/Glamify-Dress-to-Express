@@ -5,14 +5,16 @@
 }
 
 body{
-    height: 100%;
+    min-height: 100vh;
     background: linear-gradient(to bottom, rgb(255 203 209), rgb(255 162 173), rgb(255 130 144));;
 }
 
 .container{
     background: #fff;
-    border-radius: 0.5%;
+    border-radius: 0.5rem;
     border: #fff 1px solid;
+    max-width: 80%;
+    margin-top: 0.25rem;
     
 }
 hr{
@@ -62,3 +64,16 @@ hr{
       font-size: 24px; /* Adjust size as needed */
       color: gold; /* Or any color you prefer */
 }
+
+.form-container{
+    max-width: 50%;
+    margin: 6rem auto;
+    padding: 3rem;
+}
+.error-msg {
+    color: #dc143a;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    text-align: justify;
+    max-width: 50%;
+  }

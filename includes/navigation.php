@@ -1,6 +1,6 @@
 <header>
     <div class="navigation">
-        <div class="container mt-1 text-center">
+        <div class="mt-1 text-center">
             <div class="socialBar d-flex ">
                 <div class="col-md-3">
                     <i class="fa-brands fa-square-facebook"></i>
@@ -25,17 +25,17 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 text-right">
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
+                <div class="col-md-3 justify-content-right ">
+                    <a href="login.php" class="mr-3"><i class="fa-regular fa-user"></i></a>
+                    <a href="#" class="mr-3"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#" class="mr-3"><i class="fa-solid fa-bag-shopping"></i></a>
                 </div>
             </div>
             <hr />
             <nav class="navbar navbar-expand-md p-0 justify-content-center">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME </a>
+                        <a class="nav-link" href="index.php">HOME </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CATERGORIES</a>

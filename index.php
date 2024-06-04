@@ -4,10 +4,11 @@
 ?>
 
 <body>
+<div class="container">
     <?php
     include "includes/navigation.php";
     ?>
-    <div class="container">
+ 
         <div class="mt-3 px-5 row">
             <div class="col-md-4">
                 <p>New Arrivals</p>
@@ -248,10 +249,10 @@
                 </div>
             </div>
         </div>
-    </div>    
-    <?php
+        <?php
     include "includes/footer.php";
     ?>
+    </div>
 </body>
 
 </html>

@@ -25,22 +25,20 @@ unset($_SESSION['error']);
 
 <body>
   <main>
-    <div class="container row">
-      <div class="col-md-6">
-        <h1 class="heading">Log in</h1>
-        <form id="loginForm" class="customForm" action="actionPages/signin.php" method="POST"
+    <div class="container form-container text-center">
+      <div class="col-md-8 m-auto">
+        <img src="images/logo/logo.png" alt="logo" class="col-md-8"/>
+        <h3 class="heading">Log in</h3>
+        <form id="loginForm" class="customForm form-group text-center" action="action/signin.php" method="POST"
           onsubmit="return validateLoginForm()">
           <span id="loginFormErrorMsg" class="error-msg">
             <?php echo $error ?>
           </span>
-          <input type="text" placeholder="Email" name="email" id="email" />
-          <input type="password" placeholder="Password" name="pwd" id="pwd" />
-          <input id="submitBtn" type="submit" value="Login" name="loginBtn" />
-          <span class="mt-3">Don't have an account? <a class="link" href="signup.php">Signup</a> here</span>
+          <input type="text" class="form-control mb-2" placeholder="Email" name="email" id="email" />
+          <input type="password" class="form-control mb-2" placeholder="Password" name="pwd" id="pwd" />
+          <input id="submitBtn" class="form-control mb-2" type="submit" value="Login" name="loginBtn" />
+          <span class="mt-3">Don't have an account? <a class="link" href="register.php">Signup</a> here</span>
         </form>
-      </div>
-      <div class="col-md-6">
-        <img class="banner-img" src="images/cars/banner.png" alt="banner" />
       </div>
     </div>
   </main>
