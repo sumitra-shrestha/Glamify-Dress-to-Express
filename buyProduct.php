@@ -11,6 +11,7 @@
                 <h3>Guest Checkout</h3>
                 <form id="buyForm" class="form-group" action="action/addUser.php" method="POST"
                     onsubmit="return validateSignupForm()">
+                    <span><p class="text-left">Personal Info</p> </span>
                     <input type="text" placeholder="First Name" name="fname" id="fname" class="form-control mb-2" />
                     <span id="fnameErrorMsg" class="error-msg mb-2"></span>
                     <input type="text" placeholder="Last Name" name="lname" id="lname" class="form-control mb-2" />
@@ -20,6 +21,8 @@
                     <input type="number" placeholder="Phone" name="phone" id="phone" class="form-control mb-2" />
                     <span id="phoneErrorMsg" class="error-msg mb-2"></span>
                     <input type="password" placeholder="Password" name="pwd" id="pwd" class="form-control mb-2" />
+
+                    <span class="text-left">Payment info</span>
                     <input type="text" placeholder="Card number" name="cnumber" id="cnumber" class="form-control mb-2" />
                     <span id="fnameErrorMsg" class="error-msg mb-2"></span>
                     <input type="text" placeholder="CVV" name="cvv" id="cvv" class="form-control mb-2" />

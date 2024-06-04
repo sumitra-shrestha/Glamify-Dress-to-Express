@@ -34,7 +34,7 @@ if (isset($_POST["signupBtn"])) {
             if ($result->rowCount() > 0) {
                 while ($row = $result->fetch()) {
                     $_SESSION['userId'] = $row['user_id'];
-                    header("location: ../index.php");
+                    header("location: ../loggedIndex.php");
                 }
             }
         }
